@@ -4,6 +4,12 @@ Hi there! There is a repo with overview and a bunch of instructions for my own A
 
 For now it is pretty raw, but I hope it will get better in the future!
 
+# Reflector
+
+`sudo reflector --country Germany,France,Russia --age 12 --protocol https --sort rate --threads 6 --save /etc/pacman.d/mirrorlist`
+
+https://xyne.dev/projects/reflector/
+
 # Make apps looks consistently:
 
 ## Adwaita GTK3 Theme (Gnome Theme)
